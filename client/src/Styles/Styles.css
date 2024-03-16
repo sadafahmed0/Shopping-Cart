@@ -1,0 +1,88 @@
+#logo{
+    width: 120px;
+    height: 40px;
+}
+.icons{
+    color: rgb(163, 77, 37);
+}
+#product-container{
+   
+    background-color: bisque;
+}
+
+.product-card{
+   border-color: bisque;
+}
+.card-body{
+    padding: 0.55rem;
+}
+.card-text{
+    margin: 0;
+}
+.product-price{
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.product-name{
+    color: #716f6f;
+    font-size: 0.97rem
+}
+#qty-circle {
+    position: absolute;
+    top: 20px; 
+    right: 120px; 
+    background-color: bisque;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #quantity {
+    font-size: 12px;
+  }
+  
+.svg2{
+    margin-bottom: 19px !important;
+    width: 15px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    height: 15px;
+    cursor:pointer;
+    fill: #716f6f;
+}
+.svg2:hover{
+    fill: #4f4d4d;
+}
+#addtocart{
+    padding: 0;
+    float: right;
+
+}
+#qty{
+  display: inline;
+  margin: 0 6px;
+}
+
+
+button {
+  background-color: bisque;
+  color: #000000;
+  border: none;
+ 
+  padding: 5px ;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
